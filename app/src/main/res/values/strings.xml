@@ -1,0 +1,60 @@
+<resources>
+
+
+
+    <string name="app_name">Stock Hawk</string>
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="add_widget">Add widget</string>
+    <string name="floating_button_action">Add new symbols</string>
+    <string name="graph_label">Price $</string>
+    <string name="graph_no_values">No values to plot.</string>
+    <string name="axis_label_jan">Jan</string>
+    <string name="axis_label_feb">Feb</string>
+    <string name="axis_label_mar">Mar</string>
+    <string name="axis_label_apr">Apr</string>
+    <string name="axis_label_may">May</string>
+    <string name="axis_label_jun">Jun</string>
+    <string name="axis_label_jul">Jul</string>
+    <string name="axis_label_aug">Aug</string>
+    <string name="axis_label_sep">Sep</string>
+    <string name="axis_label_oct">Oct</string>
+    <string name="axis_label_nov">Nov</string>
+    <string name="axis_label_dec">Dec</string>
+    <string name="symbol_not_informed">Please enter a Symbol</string>
+    <string name="no_network_symbol_not_added">No network activity. The Symbol won\'t be added.</string>
+    <string name="percentage_option">Percentage option</string>
+    <string name="dollar_option">Dollar option</string>
+    <string name="try_look_again">Try looking again</string>
+    <string name="not_valid_symbol">It\'s not a valid Symbol.</string>
+
+
+
+    <!-- Untranslatable  -->
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key"  translatable="false">stocks</string>
+    <string name="pref_display_mode_key"  translatable="false">displayMode</string>
+    <string name="pref_display_mode_default"  translatable="false">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_absolute_key"  translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key"  translatable="false">percentage</string>
+    <string name="default_stocks_yahoo"  translatable="false">YHOO</string>
+    <string name="default_stocks_apple"  translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft"  translatable="false">MSFT</string>
+    <string name="default_stocks_facebook"  translatable="false">FB</string>
+    <string name="action_change_units"  translatable="false">@string/pref_display_mode_key</string>
+    <string name="detail_symbol"  translatable="false">DETAIL_SYMBOL</string>
+    <string name="fragment_name"  translatable="false">StockDialogFragment</string>
+    <string name="positive_prefix"  translatable="false">+</string>
+    <string name="dollar_positive_prefix"  translatable="false">+$</string>
+    <string name="widget_title">Stock Hawk</string>
+    <string name="widget_no_symbol">There is no Symbol</string>
+    <string name="stock_history_simple_date_format">yyyyMMdd</string>
+
+
+</resources>
